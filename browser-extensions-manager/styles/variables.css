@@ -1,0 +1,44 @@
+:root {
+  /* Colors */
+  --primary-color: hsl(227, 75%, 14%);
+  --secondary-color: hsl(226, 25%, 17%);
+  --tertiary-color: hsl(225, 23%, 24%);
+  --text-primary-color: hsl(200, 60%, 99%);
+  --text-secondary-color: hsl(0, 0%, 93%);
+
+  --red-400: hsl(3, 86%, 64%);
+  --red-500: hsl(3, 71%, 56%);
+  --red-700: hsl(3, 77%, 44%);
+
+  /* Borders */
+  --border-radius-sm: 0.4rem;
+  --border-radius-md: 0.8rem;
+  --border-radius-lg: 1.2rem;
+
+  /* Gradients */
+  --bg-primary-color: linear-gradient(180deg, #040918 0%, #091540 100%);
+
+  /* Fonts weight */
+  --font-weight-normal: 400;
+  --font-weight-semi-bold: 500;
+  --font-weight-bold: 700;
+
+  /* Font size */
+  --font-size-base: 16px;
+  --font-size-sm: 14px;
+  --font-size-lg: 20px;
+
+  /* Breakpoints */
+  --mobile-breakpoint: 375px;
+  --desktop-breakpoint: 1440px
+}
+
+[data-theme="light"] {
+  --bg-primary-color: linear-gradient(180deg, #EBF2FC 0%, #EEF8F9 100%);
+
+  --primary-color: hsl(200, 60%, 99%);
+  --secondary-color: hsl(0, 0%, 93%);
+  --tertiary-color: #fff;
+  --text-primary-color: hsl(227, 75%, 14%);
+  --text-secondary-color: hsl(226, 25%, 17%);
+}

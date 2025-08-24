@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 62.5%;
+
+}
+
+body {
+  background: var(--bg-primary-color);
+  color: var(--text-primary-color);
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+
+  margin: 2rem;
+
+}
+
+.container {
+  width: 120rem;
+}
+
+@media (max-width: 375px) {
+  body {
+    padding: 0rem;
+  }
+
+  .container {
+    width: var(--mobile-breakpoint);
+  }
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  font-family: inherit;
+  text-align: center;
+  text-decoration: none;
+  color: var(--text-primary-color);
+  background-color: var(--bg-secondary-color);
+  border: 1px solid var(--secondary-color);
+  border-radius: var(--border-radius-lg);
+  cursor: pointer;
+  transition: background-color 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.btn:hover {
+  background-color: var(--red-500, #0056b3);
+}
+
+.btn:active,
+.btn--active {
+  background-color: var(--red-700, #004494);
+  transform: scale(0.98);
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+}
+
+svg {
+  height: 4.8rem;
+  fill: var(--text-primary-color);
+}
+
+@media (max-width: 375px) {
+  svg {
+    height: 3.6rem;
+  }
+}
+
+
+/* control the slider */
+.switch input {
+  display: none;
+}
+
+/* The track */
+.switch {
+  display: inline-block;
+  width: 5rem;
+  height: 2.4rem;
+  position: relative;
+}
+
+/* rectangle of the slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  background-color: var(--secondary-color);
+  border-radius: var(--border-radius-lg);
+  height: 100%;
+  width: 100%;
+  transition: background-color 0.3s;
+
+  display: flex;
+  align-items: center;
+}
+
+/* The circle inside */
+.slider::before {
+  content: "";
+  position: absolute;
+  height: 1.8rem;
+  width: 1.8rem;
+  left: 3px;
+  top: 3px;
+  background-color: var(--text-primary-color);
+  border-radius: 50%;
+  transition: transform 0.3s;
+}
+
+/* ON state */
+.switch input:checked+.slider {
+  background-color: var(--red-400);
+}
+
+.switch input:checked+.slider::before {
+  transform: translateX(2.4rem);
+}
+
+
+/* a attribute styling */
+a {
+  color: var(--red-700, #007bff);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+a:hover,
+a:focus {
+  color: var(--red-400, #0056b3);
+  text-decoration: underline;
+}
+
+a:visited {
+  color: var(--red-400, #5a5a5a);
+}

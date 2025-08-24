@@ -1,0 +1,164 @@
+.page-header {
+  background-color: var(--tertiary-color);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+
+  border-radius: var(--border-radius-lg);
+}
+
+.page-logo {
+  margin-left: 1rem;
+}
+
+.logo--icon {
+  fill: var(--red-500);
+  width: 10rem;
+  height: 10rem;
+}
+
+.logo--text {
+  fill: var(--text-primary-color)
+}
+
+.icon--toggle {
+  height: 3.2rem;
+  width: 3.2rem;
+}
+
+@media (max-width: 375px) {
+  .logo--icon {
+    width: 7.5rem;
+    height: 7.5rem;
+  }
+
+  .icon--toggle {
+    height: 3rem;
+    width: 3rem;
+  }
+}
+
+.extensions-list {
+  margin: 4rem 0;
+}
+
+.extensions-list>header {
+  font-size: 3.2rem;
+  font-weight: 600;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.extension-list--filter-buttons>.btn {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+
+.extensions-list--main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.2rem;
+  margin: 2rem 0;
+
+}
+
+@media (max-width: 700px) {
+  .extensions-list>header {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+
+  .extensions-list--main {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.8rem;
+    margin: 1rem 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .extensions-list>header {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .extensions-list--main {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0.8rem;
+    margin: 1rem 0;
+  }
+}
+
+.extension--not-found {
+  display: flex;
+  width: 120rem;
+  display: flex;
+  justify-content: center;
+}
+
+.extension--not-found p {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: var(--red-700);
+  padding: 2rem;
+}
+
+.extension {
+  background-color: var(--tertiary-color);
+  border: 2px solid var(--primary-color);
+  border-radius: var(--border-radius-lg);
+  padding: 2rem;
+}
+
+.extension--header {
+  display: flex;
+  gap: 1.2rem;
+  margin-bottom: 1.8rem;
+}
+
+.extension-logo {
+  height: 4.8rem;
+  width: 4.8rem;
+}
+
+.extension--content {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.extension--title {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.extension--description {
+  font-size: 1.2rem;
+}
+
+.extension--footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.attribution {
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  justify-content: center;
+}
+
+@media (max-width: 375px) {
+  .attribution {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "DM Sans", sans-serif;
+}
+
+@media (max-width:900px) {
+  html {
+    font-size: 58%;
+  }
+}
+
+@media (max-width:700px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #fcf7f0;
+
+}
+
+.card {
+  border-radius: var(--border-radius-lg);
+  padding: 2rem;
+  max-width: 100%;
+}
+
+h1 {
+  font-size: 5.2rem;
+  letter-spacing: -2px;
+  line-height: 0.9;
+  margin-bottom: 2.4rem;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 3.4rem;
+  letter-spacing: -2px;
+  line-height: 0.9;
+  margin-bottom: 2rem;
+  font-weight: 600;
+}
+
+p {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.flex-col-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* a attribute styling */
+a {
+  color: var(--red-700, #007bff);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+a:hover,
+a:focus {
+  color: var(--red-400, #0056b3);
+  text-decoration: underline;
+}
+
+a:visited {
+  color: var(--red-400, #5a5a5a);
+}

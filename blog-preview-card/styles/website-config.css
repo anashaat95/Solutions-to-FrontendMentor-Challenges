@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 62.5%;
+
+}
+
+body {
+  min-height: 95vh;
+  background: var(--yellow);
+  color: var(--text-primary-color);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+
+  margin: 2rem;
+  font-size: 1.6rem;
+
+  color: var(--grey-950);
+}
+
+a {
+  text-decoration: none;
+  font-weight: 700;
+  color: var(--gray-500);
+  transition: all 0.3s ease;
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
+  color: var(--white);
+}

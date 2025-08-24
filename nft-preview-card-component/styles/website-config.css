@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 62.5%;
+
+}
+
+body {
+  background: var(--blue-950);
+  color: var(--blue-500);
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: var(--white);
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+a:hover,
+a:focus,
+h2:hover {
+  color: var(--cyan-400);
+}
+
+a:visited {
+  color: var(--blue-800);
+}

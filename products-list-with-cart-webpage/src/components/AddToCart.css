@@ -1,0 +1,9 @@
+.btn--add,
+.btn--added {
+  width: 65%;
+  margin: 0;
+  position: absolute;
+  bottom: 0;
+  transform: translateY(50%);
+  width: 16rem;
+}

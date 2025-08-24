@@ -1,0 +1,29 @@
+.cart-product {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cart-product--title {
+  font-size: 1.6rem;
+  margin-bottom: 0.5rem;
+}
+
+.cart-product--details {
+  font-size: 1.4rem;
+}
+
+.cart-product--amount {
+  font-weight: 700;
+  color: var(--red);
+  margin-right: 1rem;
+}
+
+.cart-product--price {
+  color: var(--rose-300);
+  margin-right: 1rem;
+}
+
+.cart-product--total-price {
+  color: var(--rose-500);
+}

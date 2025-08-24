@@ -1,0 +1,22 @@
+.btn--remove {
+  background: none !important;
+  border: none !important;
+  padding: 0;
+  margin: 0;
+}
+
+.btn--remove svg {
+  width: 2rem;
+  height: 2rem;
+  border: 1px solid var(--rose-300);
+  border-radius: 50%;
+  padding: 0.2rem;
+  fill: var(--rose-300);
+  stroke: transparent;
+  transition: all 0.2s ease;
+}
+
+.btn--remove:hover svg {
+  border: 1px solid var(--rose-900);
+  fill: var(--rose-900);
+}

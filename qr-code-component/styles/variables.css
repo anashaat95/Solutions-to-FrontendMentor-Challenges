@@ -1,0 +1,9 @@
+:root {
+  --white-color: hsl(0, 0%, 100%);
+  --primary-color: hsl(218, 44%, 22%);
+  --secondary-color: hsl(216, 15%, 48%);
+  --tertiary-color: hsl(212, 45%, 89%);
+
+
+  --border-radius-lg: 1.2rem;
+}

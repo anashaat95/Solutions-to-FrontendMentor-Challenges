@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-weight: 400;
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  background-color: var(--tertiary-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20vh;
+
+  gap: 4rem;
+}
+
+/* a attribute styling */
+a {
+  color: var(--secondary-color, #007bff);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+a:hover,
+a:focus {
+  color: var(--primary-color, #0056b3);
+  text-decoration: underline;
+}
+
+a:visited {
+  color: var(--secondary-color, #5a5a5a);
+}

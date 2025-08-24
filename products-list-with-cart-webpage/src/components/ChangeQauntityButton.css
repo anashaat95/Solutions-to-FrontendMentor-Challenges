@@ -1,0 +1,19 @@
+.btn--change-quantity {
+  background: none !important;
+  border: none !important;
+}
+
+.btn--change-quantity .icon {
+  stroke: transparent;
+  fill: white;
+  border: 2px solid white;
+  border-radius: 50%;
+  padding: 2px;
+
+}
+
+.btn--change-quantity .icon:hover {
+  background-color: white !important;
+  stroke: transparent;
+  fill: var(--red);
+}

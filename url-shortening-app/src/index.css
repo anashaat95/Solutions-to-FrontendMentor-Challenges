@@ -1,0 +1,65 @@
+:root {
+  /* Colors */
+  --primary-color-dark: hsl(260, 8%, 14%);
+  --primary-color-light: hsl(255, 11%, 22%);
+  --primary-color-lighter: hsl(257, 7%, 63%);
+  --secondary-color-dark: #2acfcf;
+  --secondary-color-light: #95e7e7;
+  --tertiary-color: hsl(257, 27%, 26%);
+  --error-color: hsl(0, 87%, 67%);
+
+
+  --bg-color-light: rgb(239, 241, 247);
+  --bg-color-dark: hsl(257, 7%, 63%);
+
+  --desktop-bp: 1024px;
+
+  --side-padding: 16rem;
+
+}
+
+@media (max-width: 1100px) {
+  :root {
+    --side-padding: 8rem;
+  }
+}
+
+@media (max-width: 900px) {
+  :root {
+    --side-padding: 2rem;
+  }
+}
+
+@media (min-width: 1600px) {
+  :root {
+    --side-padding: 32rem;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+@media (max-width: 1000px) {
+  :root {
+    font-size: 55%;
+  }
+}
+
+
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1;
+
+  overflow-x: hidden;
+  position: relative;
+}

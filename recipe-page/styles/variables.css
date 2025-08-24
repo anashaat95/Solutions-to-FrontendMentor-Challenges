@@ -1,0 +1,20 @@
+:root {
+  --color-white: hsl(0, 0%, 100%);
+  --primary-color-100: hsl(30, 54%, 90%);
+  --primary-color-150: hsl(30, 18%, 87%);
+  --primary-color-600: hsl(30, 10%, 34%);
+  --primary-color-900: hsl(24, 5%, 18%);
+  --secondary-color-800: hsl(14, 45%, 36%);
+  --tertiary-color-50: hsl(330, 100%, 98%);
+  --tertiary-color-800: hsl(332, 51%, 32%);
+
+  --primary-font-family: "Outfit", sans-serif;
+
+  --heading-font-family: "Young Serif", serif;
+
+  --font-weight-regular: 400;
+  --font-weight-semi-bold: 600;
+  --font-weight-bold: 700;
+
+  --border-radius-lg: 1.4rem;
+}

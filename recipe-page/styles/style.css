@@ -1,0 +1,54 @@
+.recipe {
+  max-width: 72rem;
+  background-color: var(--color-white);
+  padding: 3rem;
+
+  border-radius: var(--border-radius-lg);
+}
+
+.recipe--image {
+  width: 100%;
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+  margin-bottom: 3rem;
+}
+
+
+.recipe--prep {
+  background-color: var(--tertiary-color-50);
+  border-radius: var(--border-radius-lg);
+  padding: 2rem;
+
+  margin: 3rem 0;
+}
+
+.attribution {
+  color: var(--primary-color);
+  font-size: 1.8rem;
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
+
+  margin: 3rem 0;
+
+}
+
+@media(max-width: 750px) {
+  .recipe {
+    padding: 0;
+  }
+
+  .recipe--content {
+    padding: 3rem;
+  }
+
+  .recipe--image {
+    border-radius: 0%;
+  }
+
+  .attribution {
+    flex-direction: column;
+    margin: 3rem 0;
+
+  }
+}

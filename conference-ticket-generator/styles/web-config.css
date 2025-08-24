@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  min-height: 100vh;
+  font-weight: 400;
+  font-family: "Inconsolata", monospace;
+  line-height: 1;
+  font-size: 2rem;
+
+  background:
+    url("./../assets/images/pattern-lines.svg"),
+    url("./../assets/images/pattern-circle.svg"),
+    url("./../assets/images/pattern-squiggly-line-top.svg"),
+    url("./../assets/images/pattern-squiggly-line-bottom-desktop.svg"),
+    url("./../assets/images/background-desktop.png");
+
+  background-size:
+    60%,
+    15%,
+    40%,
+    60%,
+    cover;
+
+  background-position:
+    0 0,
+    80% 60%,
+    100% 10%,
+    0% 100%,
+    0 0;
+
+  background-repeat: repeat-x, no-repeat, no-repeat, no-repeat, no-repeat;
+
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+@media (max-width:500px) {
+  html {
+    font-size: 60%;
+  }
+
+  body {
+
+    background:
+      url("./../assets/images/pattern-lines.svg"),
+      url("./../assets/images/pattern-circle.svg"),
+      url("./../assets/images/pattern-squiggly-line-top.svg"),
+      url("./../assets/images/pattern-squiggly-line-bottom-mobile-tablet.svg"),
+      url("./../assets/images/background-mobile.png");
+
+    background-position:
+      0 0,
+      80% 60%,
+      100% 5%,
+      0% 100%,
+      0 0;
+
+    background-size:
+      60%,
+      15%,
+      40%,
+      60%,
+      cover;
+
+    background-repeat: repeat-x, no-repeat, no-repeat, no-repeat, no-repeat;
+  }
+}
+
+@media (max-width:375px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+
+.icon {
+  stroke: var(--white);
+  stroke-width: 0.2rem;
+}
+
+.form-group input.error,
+.form--upload-file.error {
+  border: 2px solid red;
+  color: red;
+}
+
+.form-group input:focus.error,
+.form-group input:hover.error,
+.form--upload-file:hover.error,
+.form--upload-file:focus.error {
+  outline: 2px solid red;
+}
+
+
+.form-group--notes.error {
+  color: red;
+}
+
+.form-group--notes.error .icon {
+  stroke: red;
+}
+
+button {
+  padding: 1rem;
+  background-color: var(--orange-700);
+  color: var(--neutral-900);
+  font-weight: 600;
+  font-size: 1.6rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+
+button:focus {
+  background-color: var(--organe-darker);
+  box-shadow: 0 1px 1px 2px rgba(255, 255, 255, 0.8);
+}
+
+.btn {
+  border: none;
+  color: var(--white);
+  font-size: 1.2rem;
+  font-weight: 400;
+  background-color: var(--neutral-700);
+  padding: 0.5rem 1rem;
+}
+
+.btn:hover {
+  background-color: var(--neutral-500);
+}

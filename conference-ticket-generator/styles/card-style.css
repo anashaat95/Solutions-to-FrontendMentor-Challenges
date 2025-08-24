@@ -1,0 +1,104 @@
+.fullname {
+  background: var(--text-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900;
+}
+
+.ticket {
+  display: flex;
+  justify-content: center;
+  transform: translate(0, 50%);
+}
+
+.ticket--template {
+  position: relative;
+  max-width: 80%;
+}
+
+
+.ticket--header {
+  position: absolute;
+  top: 2rem;
+  left: 8rem;
+}
+
+.ticket--header .logo {
+  width: 75%;
+}
+
+.ticket--details {
+  position: absolute;
+  bottom: 2rem;
+  left: 8rem;
+
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.ticket--avatar {
+  width: 6rem;
+  border-radius: 1.2rem;
+}
+
+.ticket--fullname {
+  font-size: 2.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.ticket--github {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.date-location,
+.ticket--github-username {
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: gray;
+}
+
+.date-location {
+  margin-left: 3.5rem;
+}
+
+.ticket--id {
+  position: absolute;
+  top: 50%;
+  right: 9rem;
+  writing-mode: vertical-lr;
+  transform: translate(0, -50%);
+  color: grey;
+  font-weight: 800;
+  font-size: 2.4rem;
+}
+
+.email {
+  color: var(--orange-700);
+}
+
+@media (max-width:500px) {
+  .ticket {
+    transform: translate(0, 20%);
+  }
+
+  .ticket--template {
+    max-width: 100%;
+  }
+
+  .ticket--header {
+    left: 2rem;
+  }
+
+  .ticket--details {
+    left: 2rem;
+  }
+
+
+  .ticket--id {
+    top: 50%;
+    right: 3rem;
+  }
+}

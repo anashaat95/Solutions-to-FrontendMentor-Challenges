@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="./styles/variables.css" />
+    <link rel="stylesheet" href="./styles/web-config.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/card-style.css" />
+
+    <title>Conference ticket generator</title>
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="./assets/images/logo-full.svg" alt="" />
+    </header>
+    <main class="content">
+      <h1 class="content--heading">Congrats, <span class="fullname">Ahmed Nashaat</span>! <br />Your ticket is ready.</h1>
+      <h3 class="content--description">
+        We've emailed your ticket to <br /><span class="email">Email Address</span> and will send updates in<br />
+        the run up to the event.
+      </h3>
+      <div class="ticket">
+        <img class="ticket--template" src="./assets/images/pattern-ticket.svg" alt="Ticket" />
+        <div class="ticket--header">
+          <img class="logo" src="./assets/images/logo-full.svg" alt="Coding Conf Logo" />
+          <p class="date-location">Jan 31, 2025 / Austin, TX</p>
+        </div>
+        <div class="ticket--details">
+          <img class="ticket--avatar" src="./assets/images/image-avatar.jpg" alt="User" />
+          <div class="ticket--user-data">
+            <p class="ticket--fullname">Ahmed Nashaat</p>
+            <div class="ticket--github">
+              <img src="./assets/images/icon-github.svg" alt="Github icon" class="icon" />
+              <p class="ticket--github-username">@anashaat95</p>
+            </div>
+          </div>
+        </div>
+        <p class="ticket--id">#01609</p>
+      </div>
+    </main>
+    <script type="module" src="./scripts/conference-card-script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,122 @@
+.product {
+  max-height: 50%;
+  max-width: 60rem;
+  border-radius: 1rem;
+
+  background-color: var(--white);
+
+  display: flex;
+  justify-content: center;
+}
+
+.product--photo {
+  max-width: 100%;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
+.product--content {
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.product--content h6 {
+  letter-spacing: 6px;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--grey);
+  text-transform: uppercase;
+}
+
+.product--content h2 {
+  font-family: var(--heading-font-family);
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--black);
+}
+
+.product--content .product--description {
+  font-size: 1.2rem;
+  color: var(--grey);
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.product--price {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.product--price-actual {
+  color: var(--green-500);
+
+  font-family: var(--heading-font-family);
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.product--price-discount {
+  color: var(--grey);
+  font-weight: 500;
+  text-decoration: line-through;
+}
+
+.btn {
+  padding: 1.4rem 2rem;
+  color: var(--white);
+  background-color: var(--green-500);
+  border: none;
+  border-radius: 10px;
+
+  font-size: 1.4rem;
+  font-weight: 700;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
+  transition: background-color 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: var(--green-700);
+  box-shadow: 0 2px 2px var(--black);
+}
+
+.attribution {
+  color: var(--primary-color);
+  font-size: 1.8rem;
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
+
+  margin: 3rem 0;
+
+}
+
+@media (max-width: 500px) {
+  .product {
+    margin: 0 2rem;
+    max-width: 36rem;
+    border-radius: 1rem;
+    flex-direction: column;
+  }
+
+  .product--photo {
+    max-width: 100%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 0;
+  }
+
+  .attribution {
+    flex-direction: column;
+  }
+}

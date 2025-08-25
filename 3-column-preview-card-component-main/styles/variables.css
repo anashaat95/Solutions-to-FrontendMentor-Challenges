@@ -1,0 +1,20 @@
+:root {
+  /* Colors */
+  --color-sedan: hsl(31, 77%, 52%);
+  --color-suv: hsl(184, 100%, 22%);
+  --color-luxury: hsl(179, 100%, 13%);
+  --color-text: hsl(0, 0%, 95%);
+  --color-btn-text: hsl(0, 0%, 95%);
+  --color-btn-border: hsl(0, 0%, 95%);
+
+  /* Fonts & Sizes */
+  --font-family-main: "Lexend Deca", sans-serif;
+  --font-family-heading: "Big Shoulders", sans-serif;
+
+  --font-heading: 3.2rem;
+  --font-body: 1.4rem;
+
+  /* Spacing */
+  --radius: 0.6rem;
+  --padding: 4rem;
+}

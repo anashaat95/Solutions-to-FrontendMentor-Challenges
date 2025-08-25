@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Repo](https://your-solution-url.com)
+- Solution URL: [Repo](https://github.com/anashaat95/Solutions-to-FrontendMentor-Challenges/tree/master/3-column-preview-card-component-main)
 - Live Site URL: [Live](https://3colscard.netlify.app/)
 
 ## My process

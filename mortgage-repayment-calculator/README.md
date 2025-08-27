@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Repo](https://your-solution-url.com)
+- Solution URL: [Repo](https://github.com/anashaat95/Solutions-to-FrontendMentor-Challenges/tree/master/mortgage-repayment-calculator)
 - Live Site URL: [Live](https://mortgagecalcapp.netlify.app/)
 
 ## My process

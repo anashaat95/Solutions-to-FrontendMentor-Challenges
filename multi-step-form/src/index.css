@@ -1,0 +1,62 @@
+:root {
+  --bg: hsl(218, 100%, 97%);
+  --card: white;
+
+  --focus: hsl(243, 100%, 62%);
+  --sidebar: hsl(243, 100%, 62%);
+  --sidebar-accent: #6259ff;
+
+  --text: hsl(213, 96%, 18%);
+  --text-light: hsl(228, 100%, 84%);
+  --muted: hsl(231, 11%, 63%);
+  --line: hsl(229, 24%, 87%);
+
+
+  --error: hsl(354, 84%, 57%);
+
+  --btn: hsl(213, 96%, 18%);
+  --btn-hover: hsl(213, 72%, 31%);
+
+  --step-badge-bg: hsl(206, 94%, 87%);
+
+  --radius-xs: 0.6rem;
+  --radius-sm: 1rem;
+  --radius-md: 1.4rem;
+  --radius-lg: 1.8rem;
+  --radius-xl: 2.2rem;
+
+
+  --shadow: 0 3.5rem 4.5rem rgba(2, 41, 90, .06);
+  --input-shadow: 0 0 0 3px rgba(71, 62, 255, 0.12);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  position: relative;
+  min-height: 100vh;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  background: var(--bg);
+  color: var(--text);
+
+  display: grid;
+  place-content: center;
+  padding: 3.2rem;
+}
+
+@media (max-width: 650px) {
+  body {
+    min-height: 95vh;
+    padding: 0;
+  }
+}

@@ -31,11 +31,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](./live-screenshot.jpg)
+![](./live-screenshot.png)
 
 ### Links
 
-- Solution URL: [Repo](https://your-solution-url.com)
+- Solution URL: [Repo](https://github.com/anashaat95/Solutions-to-FrontendMentor-Challenges/tree/master/multi-step-form)
 - Live Site URL: [Live](https://multi-stepformapp.netlify.app/)
 
 ## My process

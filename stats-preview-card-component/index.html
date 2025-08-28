@@ -35,7 +35,13 @@
           </div>
         </div>
       </div>
-      <div class="card-image"><img src="./images/image-header-desktop.jpg" alt="Women is smilling at work" /></div>
+      <div class="card-image">
+        <picture>
+          <source media="(min-width: 600px)" srcset="./images/image-header-desktop.jpg" />
+          <source media="(max-width: 599px)" srcset="./images/image-header-mobile.jpg" />
+          <img src="./images/image-header-mobile.jpg" alt="Woman smiling at work" />
+        </picture>
+      </div>
     </div>
 
     <div class="attribution">

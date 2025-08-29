@@ -26,7 +26,7 @@ const Container = styled.section`
       font-size: 2.8rem;
     }
 
-    height: 50vh;
+    height: 60vh;
   }
 `;
 

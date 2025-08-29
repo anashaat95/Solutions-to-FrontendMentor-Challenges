@@ -22,6 +22,7 @@ const Container = styled.section`
     margin-top: 1rem;
     line-height: 1.4;
     padding: 0 4rem;
+    max-width: min(90vw, 50rem);
   }
 `;
 
